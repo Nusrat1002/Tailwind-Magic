@@ -110,3 +110,9 @@ nav .btnfield .signup:hover{
     -moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.24);
 
 }
+
+#book .Trip{
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.24);
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.24);
+    -moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.24);
+}

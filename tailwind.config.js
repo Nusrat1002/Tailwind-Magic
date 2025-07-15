@@ -22,8 +22,11 @@ module.exports = {
         'tC': '#FFFFFF',
         'tC2': '#686D77',
         'tC3': '#14183E',
+        'tC4': '#080809',
+        'tC5': '#84829A',
         'cC': '#DF6951',
         'cCh': '#d64022',
+        'iCC': '#F5F5F5',
       }
    },
    plugins: [],
