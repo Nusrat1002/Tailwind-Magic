@@ -1,0 +1,112 @@
+.toggle{
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+
+nav .options ul li a{
+    transition: 0.4s;
+}
+
+nav .options ul li a:hover{
+     font-weight: 900;
+}
+
+nav .btnfield .signup{
+    transition: 0.4s;
+}
+
+nav .btnfield .signup:hover{
+    font-weight: 900;
+    border: double;
+}
+
+#category .weather, .flight, .local, .customization{
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+#category .weather:hover, .flight:hover, .local:hover, .customization:hover{ 
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.24);
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.24);
+    -moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.24);
+    
+   
+}
+
+#category .weather,
+#category .flight,
+#category .local,
+#category .customization {
+  position: relative;
+  z-index: 11;
+}
+
+/* Default: no image */
+#category .weather::after,
+#category .flight::after,
+#category .local::after,
+#category .customization::after {
+  content: "";
+  position: absolute;
+  bottom: -33px;
+  left: -35px;
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: 0.4s ease;
+  z-index: -1;
+}
+
+/* On hover: show the image */
+#category .weather:hover::after {
+  background-image: url("images/Rectangle\ .png");
+  opacity: 1;
+}
+
+#category .flight:hover::after {
+  background-image: url("images/Rectangle\ .png");
+  opacity: 1;
+}
+
+#category .local:hover::after {
+  background-image: url("images/Rectangle\ .png");
+  opacity: 1;
+}
+
+#category .customization:hover::after {
+  background-image: url("images/Rectangle\ .png");
+  opacity: 1;
+}
+
+.rome{
+    background-image: url(images/Rome.jpg) ;
+    background-repeat: no-repeat;
+    border-radius: 24px;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.24);
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.24);
+    -moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.24);
+
+}
+
+.london{
+    background-image: url(images/London.jpg) ;
+    background-repeat: no-repeat;
+    border-radius: 24px;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.24);
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.24);
+    -moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.24);
+
+}
+
+.europe{
+    background-image: url(images/Europe.png) ;
+    background-repeat: no-repeat;
+    border-radius: 24px;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.24);
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.24);
+    -moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.24);
+
+}
