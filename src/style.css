@@ -121,4 +121,6 @@ nav .btnfield .signup:hover{
   box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.24);
     -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.24);
     -moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.24);
+    opacity: 0;
+    transition: opacity 0.3s ease;
 }
