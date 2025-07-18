@@ -554,8 +554,20 @@ video {
   display: none;
 }
 
+.visible {
+  visibility: visible;
+}
+
 .invisible {
   visibility: hidden;
+}
+
+.static {
+  position: static;
+}
+
+.fixed {
+  position: fixed;
 }
 
 .absolute {
@@ -572,6 +584,10 @@ video {
 
 .bottom-\[0\] {
   bottom: 0;
+}
+
+.left-\[-32px\] {
+  left: -32px;
 }
 
 .left-\[0\] {
@@ -604,6 +620,10 @@ video {
 
 .right-\[55px\] {
   right: 55px;
+}
+
+.top-\[-32px\] {
+  top: -32px;
 }
 
 .top-\[0\] {
@@ -715,12 +735,36 @@ video {
   margin-top: 95px;
 }
 
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.inline {
+  display: inline;
+}
+
 .flex {
   display: flex;
 }
 
+.table {
+  display: table;
+}
+
 .grid {
   display: grid;
+}
+
+.contents {
+  display: contents;
+}
+
+.hidden {
+  display: none;
 }
 
 .h-\[18\.58px\] {
@@ -741,6 +785,10 @@ video {
 
 .h-\[50px\] {
   height: 50px;
+}
+
+.h-\[64px\] {
+  height: 64px;
 }
 
 .w-1\/2 {
@@ -771,8 +819,16 @@ video {
   width: 500px;
 }
 
+.w-\[504px\] {
+  width: 504px;
+}
+
 .w-\[50px\] {
   width: 50px;
+}
+
+.w-\[64px\] {
+  width: 64px;
 }
 
 .w-full {
@@ -785,6 +841,14 @@ video {
 
 .max-w-myContainer {
   max-width: 1160px;
+}
+
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.resize {
+  resize: both;
 }
 
 .grid-cols-3 {
@@ -852,6 +916,10 @@ video {
   border-radius: 10px;
 }
 
+.rounded-\[10px\] {
+  border-radius: 10px;
+}
+
 .rounded-\[18px\] {
   border-radius: 18px;
 }
@@ -874,6 +942,10 @@ video {
 
 .rounded-\[5px\] {
   border-radius: 5px;
+}
+
+.border {
+  border-width: 1px;
 }
 
 .border-\[1px\] {
@@ -1016,6 +1088,10 @@ video {
   padding-left: 30px;
 }
 
+.pl-\[34px\] {
+  padding-left: 34px;
+}
+
 .pr-\[21px\] {
   padding-right: 21px;
 }
@@ -1026,6 +1102,10 @@ video {
 
 .pr-\[26px\] {
   padding-right: 26px;
+}
+
+.pr-\[68px\] {
+  padding-right: 68px;
 }
 
 .pr-\[75px\] {
@@ -1064,6 +1144,10 @@ video {
   padding-top: 27px;
 }
 
+.pt-\[28px\] {
+  padding-top: 28px;
+}
+
 .pt-\[2px\] {
   padding-top: 2px;
 }
@@ -1086,6 +1170,10 @@ video {
 
 .font-volkhov {
   font-family: volkhov, serif;
+}
+
+.text-\[14px\] {
+  font-size: 14px;
 }
 
 .text-\[16px\] {
@@ -1148,6 +1236,10 @@ video {
   line-height: 30px;
 }
 
+.leading-\[32px\] {
+  line-height: 32px;
+}
+
 .leading-\[89px\] {
   line-height: 89px;
 }
@@ -1168,9 +1260,24 @@ video {
   letter-spacing: 0.27px;
 }
 
+.text-\[\#14183E\] {
+  --tw-text-opacity: 1;
+  color: rgb(20 24 62 / var(--tw-text-opacity, 1));
+}
+
 .text-\[\#4152CA\] {
   --tw-text-opacity: 1;
   color: rgb(65 82 202 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#5E6282\] {
+  --tw-text-opacity: 1;
+  color: rgb(94 98 130 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#959BAA\] {
+  --tw-text-opacity: 1;
+  color: rgb(149 155 170 / var(--tw-text-opacity, 1));
 }
 
 .text-hC {
@@ -1210,6 +1317,23 @@ video {
 
 .opacity-0 {
   opacity: 0;
+}
+
+.blur {
+  --tw-blur: blur(8px);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 
 .transition-all {
