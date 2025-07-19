@@ -124,3 +124,16 @@ nav .btnfield .signup:hover{
     opacity: 0;
     transition: opacity 0.3s ease;
 }
+
+#sponsors .axon:hover, .jetstar:hover, .expedia:hover, .quantas:hover, .alitalia:hover{
+  padding: 18px 39px 19px 40px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.24);
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.24);
+    -moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.24);
+    transition: 0.7s;
+}
+
+#sponsors img:hover{
+  filter: none;
+}
