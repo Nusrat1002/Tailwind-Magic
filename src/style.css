@@ -137,3 +137,25 @@ nav .btnfield .signup:hover{
 #sponsors img:hover{
   filter: none;
 }
+
+#subscription .fa-paper-plane{
+  background: #747DEF;
+background: linear-gradient(nulldeg, rgba(116, 125, 239, 1) 0%, rgba(94, 59, 225, 1) 100%);
+}
+
+#subscription .email{
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: #39425D;
+}
+
+#subscription .btn{
+  background: #FF946D;
+background: linear-gradient(0deg,rgba(255, 148, 109, 1) 0%, rgba(255, 125, 104, 1) 100%);
+}
+
+#subscription .btn:hover{
+  background: #db6c44;
+background: linear-gradient(0deg,rgba(219, 108, 68, 1) 0%, rgba(214, 73, 51, 1) 100%);
+font-weight: 800;
+}

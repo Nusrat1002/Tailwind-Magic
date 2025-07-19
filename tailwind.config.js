@@ -4,7 +4,8 @@ module.exports = {
    theme: {
       fontFamily: {
       'poppines': ['Poppons', 'serif'],
-      'volkhov': ['volkhov', 'serif']
+      'volkhov': ['volkhov', 'serif'],
+      'mont': ['Inter', 'serif'],
     },
     borderRadius: {
       '10': '10px',
