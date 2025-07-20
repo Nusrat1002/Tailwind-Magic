@@ -618,6 +618,10 @@ video {
   right: 165px;
 }
 
+.right-\[276px\] {
+  right: 276px;
+}
+
 .right-\[410px\] {
   right: 410px;
 }
@@ -658,84 +662,16 @@ video {
   top: 308px;
 }
 
+.top-\[315px\] {
+  top: 315px;
+}
+
 .top-\[93px\] {
   top: 93px;
 }
 
 .top-\[97px\] {
   top: 97px;
-}
-
-.top-\[\] {
-  top: ;
-}
-
-.top-\[435px\] {
-  top: 435px;
-}
-
-.right-\[36px\] {
-  right: 36px;
-}
-
-.top-\[415px\] {
-  top: 415px;
-}
-
-.top-\[15px\] {
-  top: 15px;
-}
-
-.top-\[315px\] {
-  top: 315px;
-}
-
-.right-\[26px\] {
-  right: 26px;
-}
-
-.right-\[16px\] {
-  right: 16px;
-}
-
-.right-\[6px\] {
-  right: 6px;
-}
-
-.right-\[56px\] {
-  right: 56px;
-}
-
-.right-\[86px\] {
-  right: 86px;
-}
-
-.right-\[106px\] {
-  right: 106px;
-}
-
-.right-\[206px\] {
-  right: 206px;
-}
-
-.right-\[306px\] {
-  right: 306px;
-}
-
-.right-\[06px\] {
-  right: 06px;
-}
-
-.right-\[296px\] {
-  right: 296px;
-}
-
-.right-\[286px\] {
-  right: 286px;
-}
-
-.right-\[276px\] {
-  right: 276px;
 }
 
 .-z-10 {
@@ -748,6 +684,14 @@ video {
 
 .z-50 {
   z-index: 50;
+}
+
+.col-span-1 {
+  grid-column: span 1 / span 1;
+}
+
+.col-span-2 {
+  grid-column: span 2 / span 2;
 }
 
 .col-span-3 {
@@ -779,8 +723,20 @@ video {
   margin-bottom: 25px;
 }
 
+.mb-\[26px\] {
+  margin-bottom: 26px;
+}
+
 .mb-\[31px\] {
   margin-bottom: 31px;
+}
+
+.mb-\[32px\] {
+  margin-bottom: 32px;
+}
+
+.mb-\[34px\] {
+  margin-bottom: 34px;
 }
 
 .mb-\[48px\] {
@@ -811,12 +767,24 @@ video {
   margin-right: 21px;
 }
 
+.mr-\[25px\] {
+  margin-right: 25px;
+}
+
 .mr-\[44px\] {
   margin-right: 44px;
 }
 
 .mr-\[6px\] {
   margin-right: 6px;
+}
+
+.mr-\[72px\] {
+  margin-right: 72px;
+}
+
+.mr-\[91px\] {
+  margin-right: 91px;
 }
 
 .mt-\[64\.09px\] {
@@ -891,10 +859,6 @@ video {
   height: 64px;
 }
 
-.h-\[\] {
-  height: ;
-}
-
 .h-\[68px\] {
   height: 68px;
 }
@@ -913,6 +877,14 @@ video {
 
 .w-\[173px\] {
   width: 173px;
+}
+
+.w-\[180px\] {
+  width: 180px;
+}
+
+.w-\[207px\] {
+  width: 207px;
 }
 
 .w-\[20px\] {
@@ -953,14 +925,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[180\] {
-  width: 180;
-}
-
-.w-\[180px\] {
-  width: 180px;
 }
 
 .max-w-\[545px\] {
@@ -1015,6 +979,10 @@ video {
   gap: 21px;
 }
 
+.gap-\[24px\] {
+  gap: 24px;
+}
+
 .gap-\[42px\] {
   gap: 42px;
 }
@@ -1027,12 +995,12 @@ video {
   gap: 76px;
 }
 
-.gap-\[88px\] {
-  gap: 88px;
+.gap-\[7px\] {
+  gap: 7px;
 }
 
-.gap-\[24px\] {
-  gap: 24px;
+.gap-\[88px\] {
+  gap: 88px;
 }
 
 .gap-x-\[55px\] {
@@ -1148,6 +1116,16 @@ video {
   padding-right: 12px;
 }
 
+.px-\[13px\] {
+  padding-left: 13px;
+  padding-right: 13px;
+}
+
+.px-\[15px\] {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .px-\[25px\] {
   padding-left: 25px;
   padding-right: 25px;
@@ -1168,6 +1146,21 @@ video {
   padding-bottom: 10px;
 }
 
+.py-\[13px\] {
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.py-\[15px\] {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.py-\[23px\] {
+  padding-top: 23px;
+  padding-bottom: 23px;
+}
+
 .py-\[25px\] {
   padding-top: 25px;
   padding-bottom: 25px;
@@ -1181,26 +1174,6 @@ video {
 .py-\[9px\] {
   padding-top: 9px;
   padding-bottom: 9px;
-}
-
-.px-\[\] {
-  padding-left: ;
-  padding-right: ;
-}
-
-.px-\[5o\] {
-  padding-left: 5o;
-  padding-right: 5o;
-}
-
-.py-\[\] {
-  padding-top: ;
-  padding-bottom: ;
-}
-
-.py-\[23px\] {
-  padding-top: 23px;
-  padding-bottom: 23px;
 }
 
 .pb-\[123px\] {
@@ -1261,6 +1234,14 @@ video {
 
 .pb-\[78px\] {
   padding-bottom: 78px;
+}
+
+.pb-\[79px\] {
+  padding-bottom: 79px;
+}
+
+.pb-\[84px\] {
+  padding-bottom: 84px;
 }
 
 .pb-\[96px\] {
@@ -1391,6 +1372,10 @@ video {
   font-family: volkhov, serif;
 }
 
+.text-\[13px\] {
+  font-size: 13px;
+}
+
 .text-\[14px\] {
   font-size: 14px;
 }
@@ -1409,6 +1394,10 @@ video {
 
 .text-\[20px\] {
   font-size: 20px;
+}
+
+.text-\[21px\] {
+  font-size: 21px;
 }
 
 .text-\[30px\] {
@@ -1447,12 +1436,24 @@ video {
   text-transform: capitalize;
 }
 
+.leading-\[16\.19px\] {
+  line-height: 16.19px;
+}
+
 .leading-\[19\.92px\] {
   line-height: 19.92px;
 }
 
 .leading-\[22\.41px\] {
   line-height: 22.41px;
+}
+
+.leading-\[24\.9px\] {
+  line-height: 24.9px;
+}
+
+.leading-\[26\.15px\] {
+  line-height: 26.15px;
 }
 
 .leading-\[26px\] {
@@ -1485,6 +1486,10 @@ video {
 
 .tracking-\[-0\.32px\] {
   letter-spacing: -0.32px;
+}
+
+.tracking-\[0\.1px\] {
+  letter-spacing: 0.1px;
 }
 
 .tracking-\[0\.27px\] {

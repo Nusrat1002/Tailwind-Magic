@@ -152,6 +152,7 @@ background: linear-gradient(nulldeg, rgba(116, 125, 239, 1) 0%, rgba(94, 59, 225
 #subscription .btn{
   background: #FF946D;
 background: linear-gradient(0deg,rgba(255, 148, 109, 1) 0%, rgba(255, 125, 104, 1) 100%);
+transition: all 0.4s;
 }
 
 #subscription .btn:hover{
@@ -160,6 +161,12 @@ background: linear-gradient(0deg,rgba(219, 108, 68, 1) 0%, rgba(214, 73, 51, 1) 
 font-weight: 800;
 }
 
-.class{
-  background: conic-gradient(0deg,rgba(184, 210, 241, 1) 0%, rgb(242, 137, 170, 1) 17%, rgb(198, 139, 240, 1) 29%, rgb(209, 100, 218, 1) 43%, rgb(201, 99, 232, 1) 61%, rgb(191, 194, 232, 1) 72%, rgb(255, 201, 153, 1) 80%, rgb(208, 216, 201, 1) 88%, rgb(186, 208, 241, 1) 93%,  rgb(206, 216, 203, 1) 100%);
+footer .props i{
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.24);
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.24);
+    -moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.24);
+}
+
+footer .props i:hover{
+  background: conic-gradient(0deg ,rgba(184, 210, 241, 1) 0%, rgb(242, 137, 170, 1) 17%, rgb(198, 139, 240, 1) 29%, rgb(209, 100, 218, 1) 43%, rgb(201, 99, 232, 1) 61%, rgb(191, 194, 232, 1) 72%, rgb(255, 201, 153, 1) 80%, rgb(208, 216, 201, 1) 88%, rgb(186, 208, 241, 1) 93%,  rgb(206, 216, 203, 1) 100%);
 }
